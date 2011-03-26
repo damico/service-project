@@ -4,6 +4,12 @@
 
 <serviceproject>
 
+   <project name="" customer="" initdate="">
+
+      <member name="" role="">
+
+   </project>
+
 
 
 </serviceproject>
