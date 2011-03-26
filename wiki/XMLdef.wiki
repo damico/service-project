@@ -6,7 +6,15 @@
 
    <project name="" customer="" initdate="">
 
-      <member name="" role="">
+      <member name="" role=""/>
+      <member name="" role=""/>
+      <member name="" role=""/>
+
+      <tasks>
+          <task name="" id="" docurl="" eta="" initdate="">
+              task description
+          </task>
+      </tasks>
 
    </project>
 
