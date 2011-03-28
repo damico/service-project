@@ -1,0 +1,3 @@
+#developer notes of project
+
+ * All servlets of app must be based on template.html file, that will be located at /var/service-project/template.html
