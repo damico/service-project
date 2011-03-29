@@ -2,6 +2,6 @@
 
 = 0.1 =
 This first release should support:
-* user xml authentication integrated to web-based UI
-* projects/users xml - in order to populate the list of existent projects
-* ability to create/read/update/delete tasks thru a web-based UI 
+ * user xml authentication integrated to web-based UI
+ * projects/users xml - in order to populate the list of existent projects
+ * ability to create/read/update/delete tasks thru a web-based UI 
