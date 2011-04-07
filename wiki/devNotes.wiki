@@ -3,3 +3,8 @@
  * All servlets of app must be based on template.html file, that will be located at /var/service-project/template.html, for that reason, the application must test the existence of this file before starts. Also the app must have a install script that provide this directory and file (it would be called service-project server fs).
 
    * The initial idea is to use an ejb 3.0 (session bean) to parse template.html. This ejb would be called at app initialization. The ejb will keep the isolation of process, even consuming more proc/mem...
+
+== Environment ==
+
+Eclipse
+eGit
