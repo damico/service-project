@@ -8,5 +8,5 @@
 
  * Eclipse JEE
  * eGit - Git Plugin
- * Geronimo 2.2
- * Geronimo 2.2 Eclipse Plugin
+ * Geronimo 2.2 http://geronimo.apache.org/apache-geronimo-v221-release.html
+ * Geronimo 2.2 Eclipse Plugin http://apache.org/dist/geronimo/eclipse/updates/
