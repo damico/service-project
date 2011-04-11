@@ -6,5 +6,7 @@
 
 == Environment ==
 
-Eclipse
-eGit
+ * Eclipse JEE
+ * eGit - Git Plugin
+ * Geronimo 2.2
+ * Geronimo 2.2 Eclipse Plugin
