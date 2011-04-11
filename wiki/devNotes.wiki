@@ -6,6 +6,7 @@
 
 == Environment ==
 
+ * Java 6
  * Eclipse JEE
  * eGit - Git Plugin http://download.eclipse.org/egit/updates
  * Geronimo 2.2 http://geronimo.apache.org/apache-geronimo-v221-release.html
