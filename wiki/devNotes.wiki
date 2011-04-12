@@ -9,5 +9,5 @@
  * Java 6
  * Eclipse JEE
  * eGit - Git Plugin http://download.eclipse.org/egit/updates
- * Geronimo 2.2 http://geronimo.apache.org/apache-geronimo-v221-release.html
+ * Geronimo 2.2 http://geronimo.apache.org/apache-geronimo-v221-release.html (Choose the Jetty version.)
  * Geronimo 2.2 Eclipse Plugin http://apache.org/dist/geronimo/eclipse/updates/
