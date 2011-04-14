@@ -31,7 +31,7 @@ postgres@debian:~$ psql
 psql (8.4.7)
 Type "help" for help.
 
-postgres=# ALTER USER serviceproject WITH PASSWORD 'damico';
+postgres=# ALTER USER serviceproject WITH PASSWORD '########';
 ALTER ROLE
 postgres=# \q
 postgres@debian:~$ su serviceproject
