@@ -11,3 +11,46 @@
  * eGit - Git Plugin http://download.eclipse.org/egit/updates
  * Geronimo 2.2 http://geronimo.apache.org/apache-geronimo-v221-release.html (Choose the Jetty version.)
  * Geronimo 2.2 Eclipse Plugin http://apache.org/dist/geronimo/eclipse/updates/
+
+=== Preparing DB ===
+
+{{{
+
+ALTER USER serviceproject WITH PASSWORD 'damico';
+
+jdamico@debian:~$ sudo -i
+[sudo] password for jdamico: 
+root@debian:~# useradd serviceproject
+root@debian:~# passwd serviceproject
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+root@debian:~# su - postgres
+postgres@debian:~$ createuser -s serviceproject
+postgres@debian:~$ psql
+psql (8.4.7)
+Type "help" for help.
+
+postgres=# ALTER USER serviceproject WITH PASSWORD 'damico';
+ALTER ROLE
+postgres=# \q
+postgres@debian:~$ su serviceproject
+Password: 
+$ createdb servicproject
+$ psql serviceproject
+psql: FATAL:  database "serviceproject" does not exist
+$ deletedb
+sh: deletedb: not found
+$ bash
+serviceproject@debian:/var/lib/postgresql$ createdb serviceproject
+serviceproject@debian:/var/lib/postgresql$ psql serviceproject
+psql (8.4.7)
+Type "help" for help.
+
+serviceproject=# /q
+serviceproject-# 
+
+
+jdamico@debian:~$ cp Downloads/postgresql-9.0-801.jdbc4.jar dev/geronimo-jetty7-javaee5-2.2.1/lib/
+
+}}}
