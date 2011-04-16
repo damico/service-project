@@ -11,7 +11,7 @@
       <member name="" role=""/>
 
       <tasks>
-          <task name="" id="" docurl="" eta="" initdate="" enddate="" type="">
+          <task name="" id="" docurl="" eta="" initdate="" enddate="" type="" status="">
               task description
           </task>
       </tasks>
